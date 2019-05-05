@@ -10,15 +10,15 @@ https://repl.it
 
 ## Ejemplos
 
-* Mi primer programa
+### Mi primer programa
 1. [Ejemplo1](ejemplo1)
 2. [Ejecutar](https://repl.it/@gnujavasergio/1-get-started)
 
-* Tipos de datos
+### Tipos de datos
 1. [Ejempplo2](ejemplo2)
 2. [Ejecutar](https://repl.it/@gnujavasergio/2tipos-de-datos)
 
-* Funciones
+### Funciones
 1. [Ejemplo3](ejemplo3)
 2. [Ejecutar](https://repl.it/@gnujavasergio/3funciones)
 
