@@ -47,28 +47,28 @@ let lenovoPortatil: Portatil = new Portatil();
 
 ## Ejemplos
 
-* Clases y Objetos
+-  Clases y Objetos
 1. [Ejemplo1](ejemplo1)
 2. [Ejecutar](https://repl.it/@gnujavasergio/4clases-objetos)
 
-* Constructor
+- Constructor
 Implementar constructores con parametros obligatorios, opcionales y por defecto.
 1. [Ejemplo2](ejemplo2)
 2. [Ejecutar](https://repl.it/@gnujavasergio/5constructor)
 
-* Propiedades y metodos
+- Propiedades y metodos
 Implementar propiedades y metodos en una clase
 1. [Ejemplo3](ejemplo3)
 2. [Ejecutar](https://repl.it/@gnujavasergio/6metodospropiedades)
 
-* Herencia
-    * La herencia en una especializacion de una clase y tambien es una forma de refactorizar codigo.
-    * Una clase solo puede heredar de una clase
-    * Para implementar la herencia en Typescript se utiliza la palabra resevada **extends**.
+- Herencia
+    - La herencia en una especializacion de una clase y tambien es una forma de refactorizar codigo.
+    - Una clase solo puede heredar de una clase
+    - Para implementar la herencia en Typescript se utiliza la palabra resevada **extends**.
 1. [Ejemplo4](ejemplo4)
 2. [Ejecutar](https://repl.it/@gnujavasergio/7herencia)
 
-* Sobreescribir
+- Sobreescribir
 La sobreescritura de metodos en una funcionalidad que podemos utilizar cuando realizamos herencia y podemos 
 añadir o remplazar una funcionalidad en la clase hija del metodo de la clase Padre.
 Para llamar a un metodo o atributo de la clase padre podemos utilizar la palabra reservada **super**.

@@ -26,3 +26,15 @@
     * Se utiliza la palabra reservada **type**
 1. [Ejemplo4](ejemplo4)
 2. [Ejecutar](https://repl.it/@gnujavasergio/18type-aliases)        
+
+## Tuplas
+    * Las Tuplas en TypeScript son un tipo de arreglo en particular que en las primeras posiciones se define el tipo de dato que se podra añadir al arreglo.
+1. [Ejemplo5](ejemplo5)
+2. [Ejecutar](https://repl.it/@gnujavasergio/19tuplas)      
+
+## Enums
+    * Son un tipo de datos que existen en C# y java que nos puede servir para definir numeros con un nombre significativo.
+    * El utilizar los enums es una conveniencia que le da mas claridad a nuestro codigo.
+    * Utilizamos la palabra reservada **enum**
+1. [Ejemplo6](ejemplo6)
+2. [Ejecutar](https://repl.it/@gnujavasergio/20enums)  
