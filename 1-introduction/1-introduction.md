@@ -8,9 +8,18 @@ En la comunidad de javascript se han desarrollado un monton de herramientas
 * Librerias
 * Lenguajes que se compilan a javascript
 
-# Typescript
+## Javascript
 
-* Typescript es un super set de Javascript lo que significa, es un nuevo lenguaje que tiene el poder de ejecutar cualquier programa de javascript o libreria de javascript.
+- Javascript a veces puede ser desordenado por las variables dinamicas.
+- Javascript actualmente ya es un lenguaje Orientado a Objetos
+
+- **Representación de Javascript**
+![Javascript](images/1-imagen.png)
+
+## Typescript
+
+* Typescript es un lenguaje Orientado a Objetos pero de verdad y no como javascript porque javascript como tal 
+* Typescript es un super set de Javascript lo que significa, es un nuevo lenguaje que tiene el poder de ejecutar cualquier programa o libreria de javascript.
 * Typescript parte de la misma sintaxis de javascript.
 * Usar Typescript no da la posibilidad de utilizar las nuevas caracteristicas de javascript, que no todo los navegadores la pueden soportar.
 Algunas de estas caracteristicas son:
@@ -20,6 +29,9 @@ Algunas de estas caracteristicas son:
     * etc.
 * Typescript es un lenguaje de tipado estatico miestras que javascript es un lenguaje de tipado dinamico(que se añade el tipo cuando se utilizando)    
 * Typescript es un nuevo lenguaje con caracteristicas pensadas para  proyectos grandes y a gran escala.
+
+- **Representación de Typescript**
+![Typescript](images/2-imagen.png)
 
 ## Caracteristicas
 
@@ -37,15 +49,15 @@ Hay muchas herramientas que implementan Typescript y que nos agilizan y nos ayud
 * Refactoring automatico
 
 Editores
-* Atom
 * Visual Studio Code
+* Atom
 
 Porque en Angular se utiliza Typescript algo que uno siempre se pudo preguntar.
 Victor Savking
 https://vsavkin.com/writing-angular-2-in-typescript-1fa77c78d8e8
 
 Resumen
-Su punto principal es porque Typescript es mucho mas explicito con tipado estattico y claro que uno de tipado dinamico.
+Su punto principal es porque Typescript es mucho mas explicito con tipado estatico y claro que uno de tipado dinamico.
 
 ```
 // Javascript
