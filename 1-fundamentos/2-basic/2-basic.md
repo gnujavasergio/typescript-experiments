@@ -1,3 +1,61 @@
+# Conceptos Basicos
+
+## Reglas de sintaxis de TypeScript.
+- TypeScript es un superset de JavaScript.
+- Sigue algunas reglas de sintaxis.
+    - {} Llaves define bloques de Codigo.
+    - ; Para definar que una expresion de codigo termino.
+- Keywords de javascript
+
+## Importantes keywords y operadores.
+| Keyword | Descripción |
+|:--:| :--: |
+| ... |  Parametros de sintaxis rest |
+| : | Separador entre variables/parametros nombres y tipos |
+| <typeName> | <> Caracter usado para convertir entre tipos. |
+| => |  Sintaxis Arrow usado en definiciones y funciones|
+| class       | Contenedores para miembros como propiedades y funciones.  |
+| constructor | Para iniciar la funcionalidad de una clase |
+| exports | Exportar un miembro de un modulo |
+| extends | Utilizado para herencia |
+| implements | Implementar una interfaz |
+| imports | Importar un modulo |
+| interface | Definir el contacto de código que se puede implementar por tipos |
+| module/namespace | Almacenar clases y otros codigos |
+| public/private | Modificadores de visibilidad de los miembros |
+
+## Jerarquia del codigo en TypeScript
+![hierarchy](images/image1.png)
+
+## Empezar a programar
+- Ahora podemos empezar a programar con el playground que nos proporciona typescript
+- [https://www.typescriptlang.org/play/index.html](https://www.typescriptlang.org/play/index.html)
+
+O podemos utilizar repl para poder tambien probar nuestros proyectos.
+- [https://repl.it](https://repl.it)
+
+## Mi primer programa
+**Ejecutar Servidor local**
+```
+http-server -o ejemplo1
+```
+**Transpilar TypeScript**
+```bash
+# -w: estar siempre escuchando
+tsc -w
+```
+- [Ejemplo1](../examples/2-basic/ejemplo1/README.md)
+
+## Archivo de Confiuración de TypeScript
+```bash
+## Generar el archivo de configuración
+tsc --init
+# Generar un projecto con el archivo de configuracion
+tsc --project ejemplo2
+```
+
+- Archivo tsconfig.json
+```json
 {
   "compilerOptions": {
     /* Basic Options */
@@ -56,5 +114,58 @@
     /* Experimental Options */
     // "experimentalDecorators": true,        /* Enables experimental support for ES7 decorators. */
     // "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
-  }
+  },
+  "include": [
+      // Lista de declaraciones de tipo que se van a incluir en el proceso de compilacion
+      // Podemos mencionar los directorios y subdirectorios seran utilizan incluidos en el proceso de compilacion
+      "src/**/*.ts"
+  ],
+  "exclude": [
+      // Excluir los archivos que no se añadiran en la compilacion
+      "node_modules",
+      "**/*.test.ts"
+  ]
 }
+```
+- [Ejemplo2](../examples/2-basic/ejemplo2/README.md)
+
+## Tipos de datos
+- Tipado en TypeScript
+    - **Explicito**: Define una sintaxis para la creación de variables con tipo de dato.
+    - **Inferido**: TypeScript tiene la habilidad de deducir el tipo en función de un valor.
+- Tipos de datos
+    - number
+        - Valores numericos
+        - Valores flotantes
+        - Valores hexadecimales
+        - Valores binarios
+        - Valores octales
+    - string
+    - boolean
+    - Array<string>
+    - number[]
+    - enum
+
+## Variables
+- Para crear variables en TypeScript se utiliza el formato CamelCase
+- Las variables tienen que tener nombre significativos
+- Una variable no puedo comenzar por numeros
+- Una variable no puedo contener espacios y tampoco simbolos especiales
+- Una variable no deben ser keywords(palabras reservadas)
+- Variables sin tipo
+    - `var unVar = 4;`
+    - `let unLet = "Good moorning;`
+    - `const unConst = true;`
+- Variable con tipo
+    - `let unNumber:number = 4;`    
+    - `let unString:string = "Sergio Ochoa";`
+    - `let unBool:boolean = true;`
+ - Variables dinamicas
+    - `let unAny:any = 4.5;`
+- [Ejemplo3](../examples/2-basic/ejemplo3/README.md)
+
+## Funciones
+1. [Ejemplo1](../examples/2-empezar/ejemplo3/README.md)
+2. [Ejecutar](https://repl.it/@gnujavasergio/3funciones)
+
+

@@ -3,7 +3,7 @@
  * como no declaramos el tipo de dato a los parametros 
  * typescript automaticamente la asigna el tipo any
  * 
- * @param op1 
+ * @param ope1 
  * @param ope2 
  */
 function suma(op1, ope2){
