@@ -1,10 +1,14 @@
-var Speaker = /** @class */ (function () {
-    function Speaker() {
+var Customer = /** @class */ (function () {
+    function Customer(name) {
+        this.name = name;
     }
-    Speaker.prototype.hi = function (name) {
-        console.log(name);
+    Customer.prototype.welcome = function () {
+        return 'Hola, mi nombre es ' + this.name;
     };
-    return Speaker;
+    return Customer;
 }());
-var speaker = new Speaker();
-speaker.hi("Sergio");
+var firstCustomer = new Customer('Sergio');
+var newMessage = firstCustomer.welcome();
+// Cambiar el texto de la pagina
+var webHeading = document.querySelector('h1');
+webHeading.textContent = newMessage;

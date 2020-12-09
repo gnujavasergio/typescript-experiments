@@ -1,6 +1,6 @@
 ## Ejecutar Servidor local
 ```
-http-server -o ejemplo1
+http-server -o ejemplo2
 ```
 
 ## Ejecutar en la consola
@@ -12,11 +12,6 @@ node dist/index.js
 ```bash
 # -w: estar siempre escuchando
 tsc -w
-
-# Utilizarlo de forma completa
+# o
 tsc --watch
-
-# Transpialar a una carpeta con diferentes opciones
-tsc --target ES2015 --outDir dist index.ts
 ```
-

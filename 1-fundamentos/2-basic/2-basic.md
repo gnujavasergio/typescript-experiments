@@ -40,7 +40,7 @@ O podemos utilizar repl para poder tambien probar nuestros proyectos.
 http-server -o ejemplo1
 ```
 **Transpilar TypeScript**
-```bash
+```
 # -w: estar siempre escuchando
 tsc -w
 ```
@@ -55,8 +55,10 @@ tsc --project ejemplo2
 ```
 
 - Archivo tsconfig.json
-```json
+```json5
 {
+  "extends": ",/configs/base",                /* Si queremos reutilizar una configuracion */
+  "compileOnSave": true,                      /* Compiar automaticamente cuando se guarde esto en editores de codigo o IDEs */
   "compilerOptions": {
     /* Basic Options */
     "target": "es5",                          /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017','ES2018' or 'ESNEXT'. */
@@ -129,6 +131,18 @@ tsc --project ejemplo2
 ```
 - [Ejemplo2](../examples/2-basic/ejemplo2/README.md)
 
+### Modulos
+- En TypeScript podemos utilizar varios formas de importar y exportar un archivo de TypeScript.
+    - commonjs
+    - amd
+    - system
+    - umd
+    - es2015
+    - ESNext
+- Propiedades del tsconfig.json
+    "module": "commonjs"
+- [Ejemplo3](../examples/2-basic/ejemplo3/README.md)
+    
 ## Tipos de datos
 - Tipado en TypeScript
     - **Explicito**: Define una sintaxis para la creación de variables con tipo de dato.

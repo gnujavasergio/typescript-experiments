@@ -12,11 +12,11 @@ En la comunidad de javascript se han desarrollado un monton de herramientas
     - Dart
 
 ## Javascript
-- Javascript a veces puede ser desordenado por las variables dinamicas.
+- Javascript a veces puede ser desordenado por las variables dinámicas.
 - Javascript actualmente ya es un lenguaje Orientado a Objetos
     - Implementado con sintaxis Sugar(Sencillo)    
 ![Javascript](images/image1.png)
-- Si no se tiene codigo limpio no podra ser Mantenible ni Reutilizable.
+- Si no se tiene codigo limpio no podra ser mantenible ni reutilizable.
 - Con javascript se tiene que cambiar de hacer codigo spaguetti a 
 - Encapsulación del codigo JavaScript.
 ![Javascript](images/image5.png)
@@ -28,10 +28,12 @@ En la comunidad de javascript se han desarrollado un monton de herramientas
     - El malo
         - Difícil asegurar que se pasan los tipos adecuados sin pruebas.
         - No todos los desarrolladores usan ===
-        - Las aplicaciones a escala empresarial pueden tener miles de líneas de código para mantener.
+        - Las aplicaciones a escala empresarial pueden tener miles de líneas 
+        de código para mantener.
 
 - **Representación de Javascript**
-- Si no sigue algunos de los patrones de javascript para ordenar su codigo se vera de esta forma.
+- Si no sigue algunos de los patrones de javascript para ordenar su código 
+se vera de esta forma.
 ![Javascript](images/image2.png)
 
 ## Alternativas a TypeScript
@@ -44,16 +46,22 @@ En la comunidad de javascript se han desarrollado un monton de herramientas
 ## Que es Typescript?
 ![Typescript](images/image3.png)
 - Typescript es un lenguaje Orientado a Objetos pero de verdad y no como javascript porque javascript (Sugar)
-- TypeScript es un tipo de superset de JavaScript que compila/genera/transpila a JavaScript simple.
-    - **Nota** Todo el JS es TS valido
-- Cualquier navegador
-- Cualquier host
-- Cualquier Sistema Operativo
-- Proyecto muy activo de Open Source
-- Tool support
+- TypeScript es un superset de JavaScript que compila/genera/transpila a JavaScript simple.
+    - **Nota:** Todo el JS es TS valido
+![superset](images/image8.png)    
+- Lenguaje de programación Tipado
+- El código se puede ejecutar en cualquier navegador o Sistema Operativo.
+- Es Open Source o de código Abierto. 
+- Genera como resultado codigo JavaScript.
+![compilacion](images/image9.png)    
+- Suporte mejorado a Herramientas IDEs o Editores de Codigo
+    - Manejo de errores instantaneos.
+    - Detectar datos no utilizados    
+    - Source maps - Para poder depurar TypeScript
 
 ## Caracteristicas    
-- Usar Typescript no da la posibilidad de utilizar las nuevas caracteristicas de javascript, que no todo los navegadores lo pueden soportar.
+- Usar Typescript nos da la posibilidad de utilizar las nuevas caracteristicas 
+de javascript, que no todo los navegadores lo pueden soportar.
 - Proporciona tipos estaticos.
 - Encapsulacion mediante clases y modulos.
 - Soporte para constructores, propiedades y funciones en una Clase.
@@ -63,6 +71,8 @@ En la comunidad de javascript se han desarrollado un monton de herramientas
 - Compilar Typescript
 ![Compilar](images/image6.png)
 ![Comparación](images/image7.png)
+- Compatibilidad de ECMAScript hasta lo mas reciente.
+ ![Comparación](images/image9.png)
 - Caracteristicas que no tiene javascript:
     - Decoradores
     - Genericos            
@@ -98,7 +108,7 @@ En la comunidad de javascript se han desarrollado un monton de herramientas
 
 ## Herramientas
 - Hay muchas herramientas que implementan Typescript y que nos agilizan y nos ayudan desarrollar mas rapido
-    * Autocompletado
+    * Auto completado
     * Detección de errores
     * Refactoring automatico
 - Editores y IDE
